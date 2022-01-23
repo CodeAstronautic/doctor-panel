@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Doctor admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="vendors/feather/feather.css" />
+    <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css" />
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+  
+    <!-- favicon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.html">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+    <!-- bootstrap v4 css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!-- rsmenu CSS -->
+    <link rel="stylesheet" type="text/css" href="css/rsmenu-main.css">
+    <!-- rsmenu transitions CSS -->
+    <link rel="stylesheet" type="text/css" href="css/rsmenu-transitions.css">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<!-- flaticon css  -->
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
+    <!-- flaticon2 css  -->
+    <link rel="stylesheet" type="text/css" href="fonts/fonts2/flaticon.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link
+      rel="stylesheet"
+      href="vendors/datatables.net-bs4/dataTables.bootstrap4.css"
+    />
+    <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="js/select.dataTables.min.css"
+    />
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/vertical-layout-light/style.css" />
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- this one line data is for http api in aws servwr -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link
+      href="css/paper-bootstrap-wizard.css"
+      type="text/css"
+      rel="stylesheet preload"
+    />
+    <link
+      href="css/themify-icons.css"
+      type="text/css"
+      rel="stylesheet preload"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- step 2----------------------------------------------------------------------------------------------------------- -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/vertical-layout-light/style.css" />
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link
+      href="css/paper-bootstrap-wizard.css"
+      type="text/css"
+      rel="stylesheet preload"
+    />
+    <link
+      href="css/themify-icons.css"
+      type="text/css"
+      rel="stylesheet preload"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <script src="js/dataTables.select.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+    <script type="text/javascript" src="js/jquery.bootstrap.wizard.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/paper-bootstrap-wizard.js"></script>
+
+    <!-- step2-------------------------------------------------------------------------------------------------------------------------- -->
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <script src="js/dataTables.select.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <script src="js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+    <script type="text/javascript" src="js/jquery.bootstrap.wizard.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/paper-bootstrap-wizard.js"></script>
+
+    <script>
+      function readURL(input, imgControlName) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function (e) {
+            $(imgControlName).attr("src", e.target.result);
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+
+      $("#imag").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview";
+        readURL(this, imgControlName);
+        $(".preview1").addClass("it");
+        $(".btn-rmv1").addClass("rmv");
+      });
+      $("#imag2").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview2";
+        readURL(this, imgControlName);
+        $(".preview2").addClass("it");
+        $(".btn-rmv2").addClass("rmv");
+      });
+      $("#imag3").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview3";
+        readURL(this, imgControlName);
+        $(".preview3").addClass("it");
+        $(".btn-rmv3").addClass("rmv");
+      });
+      $("#imag4").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview4";
+        readURL(this, imgControlName);
+        $(".preview4").addClass("it");
+        $(".btn-rmv4").addClass("rmv");
+      });
+      $("#imag5").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview5";
+        readURL(this, imgControlName);
+        $(".preview5").addClass("it");
+        $(".btn-rmv5").addClass("rmv");
+      });
+
+      $("#removeImage1").click(function (e) {
+        e.preventDefault();
+        $("#imag").val("");
+        $("#ImgPreview").attr("src", "");
+        $(".preview1").removeClass("it");
+        $(".btn-rmv1").removeClass("rmv");
+      });
+      $("#removeImage2").click(function (e) {
+        e.preventDefault();
+        $("#imag2").val("");
+        $("#ImgPreview2").attr("src", "");
+        $(".preview2").removeClass("it");
+        $(".btn-rmv2").removeClass("rmv");
+      });
+      $("#removeImage3").click(function (e) {
+        e.preventDefault();
+        $("#imag3").val("");
+        $("#ImgPreview3").attr("src", "");
+        $(".preview3").removeClass("it");
+        $(".btn-rmv3").removeClass("rmv");
+      });
+      $("#removeImage4").click(function (e) {
+        e.preventDefault();
+        $("#imag4").val("");
+        $("#ImgPreview4").attr("src", "");
+        $(".preview4").removeClass("it");
+        $(".btn-rmv4").removeClass("rmv");
+      });
+      $("#removeImage5").click(function (e) {
+        e.preventDefault();
+        $("#imag5").val("");
+        $("#ImgPreview5").attr("src", "");
+        $(".preview5").removeClass("it");
+        $(".btn-rmv5").removeClass("rmv");
+      });
+    </script>
+
+    <script>
+      function readURL(input, imgControlName) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function (e) {
+            $(imgControlName).attr("src", e.target.result);
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+
+      $("#imag_new1").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview_n1";
+        readURL(this, imgControlName);
+        $(".preview1_nn").addClass("it");
+        $(".btn-rmv1").addClass("rmv");
+      });
+      $("#imag2").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview2";
+        readURL(this, imgControlName);
+        $(".preview2").addClass("it");
+        $(".btn-rmv2").addClass("rmv");
+      });
+      $("#imag3").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview3";
+        readURL(this, imgControlName);
+        $(".preview3").addClass("it");
+        $(".btn-rmv3").addClass("rmv");
+      });
+      $("#imag4").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview4";
+        readURL(this, imgControlName);
+        $(".preview4").addClass("it");
+        $(".btn-rmv4").addClass("rmv");
+      });
+      $("#imag5").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview5";
+        readURL(this, imgControlName);
+        $(".preview5").addClass("it");
+        $(".btn-rmv5").addClass("rmv");
+      });
+
+      $("#removeImage1_n2").click(function (e) {
+        e.preventDefault();
+        $("#imag_new1").val("");
+        $("#ImgPreview_n1").attr("src", "");
+        $(".preview1_nn").removeClass("it");
+        $(".btn-rmv1").removeClass("rmv");
+      });
+      $("#removeImage2").click(function (e) {
+        e.preventDefault();
+        $("#imag2").val("");
+        $("#ImgPreview2").attr("src", "");
+        $(".preview2").removeClass("it");
+        $(".btn-rmv2").removeClass("rmv");
+      });
+      $("#removeImage3").click(function (e) {
+        e.preventDefault();
+        $("#imag3").val("");
+        $("#ImgPreview3").attr("src", "");
+        $(".preview3").removeClass("it");
+        $(".btn-rmv3").removeClass("rmv");
+      });
+      $("#removeImage4").click(function (e) {
+        e.preventDefault();
+        $("#imag4").val("");
+        $("#ImgPreview4").attr("src", "");
+        $(".preview4").removeClass("it");
+        $(".btn-rmv4").removeClass("rmv");
+      });
+      $("#removeImage5").click(function (e) {
+        e.preventDefault();
+        $("#imag5").val("");
+        $("#ImgPreview5").attr("src", "");
+        $(".preview5").removeClass("it");
+        $(".btn-rmv5").removeClass("rmv");
+      });
+    </script>
+
+    <script>
+      function readURL(input, imgControlName) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function (e) {
+            $(imgControlName).attr("src", e.target.result);
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+
+      $("#imag_new33").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview_n33";
+        readURL(this, imgControlName);
+        $(".preview1_nn33").addClass("it");
+        $(".btn-rmv1").addClass("rmv");
+      });
+      $("#imag2").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview2";
+        readURL(this, imgControlName);
+        $(".preview2").addClass("it");
+        $(".btn-rmv2").addClass("rmv");
+      });
+      $("#imag3").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview3";
+        readURL(this, imgControlName);
+        $(".preview3").addClass("it");
+        $(".btn-rmv3").addClass("rmv");
+      });
+      $("#imag4").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview4";
+        readURL(this, imgControlName);
+        $(".preview4").addClass("it");
+        $(".btn-rmv4").addClass("rmv");
+      });
+      $("#imag5").change(function () {
+        // add your logic to decide which image control you'll use
+        var imgControlName = "#ImgPreview5";
+        readURL(this, imgControlName);
+        $(".preview5").addClass("it");
+        $(".btn-rmv5").addClass("rmv");
+      });
+
+      $("#removeImage1_n33").click(function (e) {
+        e.preventDefault();
+        $("#imag_new33").val("");
+        $("#ImgPreview_n33").attr("src", "");
+        $(".preview1_nn33").removeClass("it");
+        $(".btn-rmv1").removeClass("rmv");
+      });
+      $("#removeImage2").click(function (e) {
+        e.preventDefault();
+        $("#imag2").val("");
+        $("#ImgPreview2").attr("src", "");
+        $(".preview2").removeClass("it");
+        $(".btn-rmv2").removeClass("rmv");
+      });
+      $("#removeImage3").click(function (e) {
+        e.preventDefault();
+        $("#imag3").val("");
+        $("#ImgPreview3").attr("src", "");
+        $(".preview3").removeClass("it");
+        $(".btn-rmv3").removeClass("rmv");
+      });
+      $("#removeImage4").click(function (e) {
+        e.preventDefault();
+        $("#imag4").val("");
+        $("#ImgPreview4").attr("src", "");
+        $(".preview4").removeClass("it");
+        $(".btn-rmv4").removeClass("rmv");
+      });
+      $("#removeImage5").click(function (e) {
+        e.preventDefault();
+        $("#imag5").val("");
+        $("#ImgPreview5").attr("src", "");
+        $(".preview5").removeClass("it");
+        $(".btn-rmv5").removeClass("rmv");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+.rs-toolbar {
+  padding: 4px 0 5px;
+  background-color: #111111;
+}
+.rs-toolbar .rs-toolbar-left .welcome-message {
+  font-size: 14px;
+}
+.rs-toolbar .rs-toolbar-left .welcome-message span {
+  color: #ffffff;
+}
+.rs-toolbar .rs-toolbar-right {
+  text-align: right;
+}
+.rs-toolbar .rs-toolbar-right .toolbar-share-icon {
+  display: inline-block;
+  margin-right: 30px;
+}
+.rs-toolbar .rs-toolbar-right .toolbar-share-icon ul li {
+  display: inline-block;
+}
+.rs-toolbar .rs-toolbar-right .apply-btn {
+  font-weight: 500;
+  font-size: 14px;
+}
+a {
+  color: #0c75fb;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+  outline: none !important;
+}
+.home2 .rs-header-top {
+  padding: 20px 0 50px;
+}
+
+.rs-header .rs-header-top {
+  padding: 25px 0 20px;
+}
+.rs-header .rs-header-top .header-contact {
+  float: right;
+}
+.rs-header .rs-header-top .header-contact .widget-text {
+  position: relative;
+  padding-left: 55px;
+}
+.rs-header .rs-header-top .header-contact .widget-text i {
+  position: absolute;
+  border-radius: 2px;
+  text-align: center;
+  left: 0;
+  line-height: 40px;
+  color: #0c75fb;
+  font-size: 35px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 700;
+}
+.flaticon-phone-call:before {
+  content: "\f105";
+}
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+}
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+}
+.rs-header .rs-header-top .header-contact .widget-text .info-text span {
+  display: block;
+  font-weight: 700;
+  color: #101010;
+  line-height: 18px;
+}
+.home2 .menu-area .main-menu {
+  background: #111111;
+  position: absolute;
+  top: -30px;
+  border-radius: 0;
+  width: 100%;
+  z-index: 999;
+  left: 0;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.rs-header .rs-menu-toggle {
+  color: #fff !important;
+}
+
+.rs-menu {
+  float: left;
+  clear: both;
+  width: 100%;
+  font-size: 0;
+  position: relative;
+}
+.home2 .rs-menu ul {
+  text-align: left;
+}
+.home2 .rs-menu > ul > li {
+  padding-right: 40px;
+}
+.rs-menu li {
+  font-size: 14px;
+}
+.rs-menu li {
+  display: block;
+  vertical-align: top;
+  position: relative;
+}

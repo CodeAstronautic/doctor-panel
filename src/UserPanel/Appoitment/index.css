@@ -1,0 +1,74 @@
+.u-d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.u-d-inlineblock {
+  display: inline-block;
+}
+.listing-doctor-card .info-section,
+.uv2-cushion--lg-hz {
+  padding: 0 16px;
+}
+.listing-doctor-card .profile-photo {
+  width: 140px;
+  height: 140px;
+}
+.u-pos-has {
+  position: relative;
+}
+.listing-doctor-card .profile-photo {
+  width: 140px;
+  height: 140px;
+}
+.c-filter__select--radio,
+.u-circle {
+  border-radius: 50%;
+}
+.listing-doctor-card .prime-badge {
+  right: 2px;
+  bottom: 16px;
+}
+
+.c-card-reach--plus__prime,
+.c-card-reach__footer-left,
+.c-drop-list,
+.c-dropdown__list,
+.c-dropdown__suggestion,
+.c-procedure-price-bar__graph__tool-tip,
+.c-slider .slick-arrow,
+.listing-doctor-card .prime-badge,
+.page-loader,
+.u-pos-abs {
+  position: absolute;
+}
+.uv2-spacer--xs-bottom {
+  margin-bottom: 4px;
+}
+.c-btn--light,
+.c-btn--light-medium,
+.c-btn--light-small,
+.c-btn--link,
+.listing-doctor-card .view-profile,
+.u-color--primary {
+  color: #14bef0;
+}
+.listing-doctor-card .doctor-name,
+.u-jumbo-font {
+  font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+.u-grey_3-text {
+  color: #787887;
+}
+.u-grey_3-text {
+  color: #787887;
+}
