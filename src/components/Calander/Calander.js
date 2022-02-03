@@ -115,7 +115,7 @@ const Calander = () => {
               <a
                 className="nav-link count-indicator dropdown-toggle"
                 id="notificationDropdown"
-                href="#"
+                href="/"
                 data-toggle="dropdown"
               >
                 <i className="icon-bell mx-0"></i>
@@ -176,7 +176,7 @@ const Calander = () => {
             <li className="nav-item nav-profile dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
+                href="/"
                 data-toggle="dropdown"
                 id="profileDropdown"
               >
@@ -200,7 +200,7 @@ const Calander = () => {
               </div>
             </li>
             <li className="nav-item nav-settings d-none d-lg-flex">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/">
                 <i className="icon-ellipsis"></i>
               </a>
             </li>
@@ -516,7 +516,7 @@ const Calander = () => {
               <div className="d-sm-flex justify-content-center justify-content-sm-between">
                 <span className="text-muted text-center text-sm-left d-block d-sm-inline-block">
                   Copyright © 2021. GiantCell Asia{" "}
-                  <a href="#" target="_blank"></a> reserved.
+                  <a href="/" target="_blank"></a> reserved.
                 </span>
               </div>
             </footer>
